@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# LiteLink - URL Shortener
+
+LiteLink is a URL shortener application built using Next.js, Tailwind CSS, and Firebase. This project uses Headless UI for UI components.
+
+## Demo
+
+You can see a live demo of the application [here](https://your-live-demo-link.com).
+
+## Features
+
+- Generate short URLs
+- Redirect to original URLs
+- Easy to use and responsive UI
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Headless UI](https://headlessui.dev/)
+- [Firebase](https://firebase.google.com/)
 
 ## Getting Started
 
-First, run the development server:
+Follow these instructions to set up the project on your local machine.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Prerequisites
+
+- Node.js (>= 14.x)
+- npm or yarn
+- Firebase project setup
+
+### Installation
+
+1. Clone the repository
+
+   ```bash
+   git clone https://github.com/dharam-gfx/lite-link.git
+   cd litelink
+
+
+2. Install dependencies
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Set up Firebase
+
+   Create a new Firebase project and set up Firestore, Authentication, and Storage. Copy the Firebase configuration and add them to your environment variables.
+
+### Running the Application
+
+1. Create a `.env.local` file in the root of your project and add your Firebase configuration:
+
+   ```plaintext
+   NEXT_PUBLIC_API_KEY=your-api-key
+   NEXT_PUBLIC_AUTH_DOMAIN=your-auth-domain
+   NEXT_PUBLIC_DATABASE_URL=your-database-url
+   NEXT_PUBLIC_PROJECT_ID=your-project-id
+   NEXT_PUBLIC_STORAGE_BUCKET=your-storage-bucket
+   NEXT_PUBLIC_MESSAGING_SENDER_ID=your-messaging-sender-id
+   NEXT_PUBLIC_APP_ID=your-app-id
+   ```
+
+2. Start the development server
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+3. Open your browser and navigate to `http://localhost:3000` to see the application running.
+
+These variables are necessary for connecting to your Firebase project.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
