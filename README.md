@@ -4,7 +4,7 @@ LiteLink is a URL shortener application built using Next.js, Tailwind CSS, and F
 
 ## Demo
 
-You can see a live demo of the application [here](https://your-live-demo-link.com).
+You can see a live demo of the application [here](https://litelink.vercel.app).
 
 ## Features
 
@@ -78,5 +78,5 @@ These variables are necessary for connecting to your Firebase project.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/dharam-gfx/lite-link/blob/main/LICENSE) file for more information.
 ```
