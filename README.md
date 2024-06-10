@@ -52,7 +52,7 @@ Follow these instructions to set up the project on your local machine.
 
 ### Running the Application
 
-1. Create a `.env.local` file in the root of your project and add your Firebase configuration:
+1. Create a `.env` file in the root of your project and add your Firebase configuration:
 
    ```plaintext
    NEXT_PUBLIC_API_KEY=your-api-key
